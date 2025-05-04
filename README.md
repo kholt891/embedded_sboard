@@ -9,14 +9,15 @@ ___
 -1. Embedded Development Platform
 * Hardware
 * Firmware
-
-*   
 * Software
+---
+*   
  * Embedded Development Platform
    * Hardware
      * PCB
-* Firmware
-* Software     
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+ * Firmware
+ * Software
+   
+ ---
 [current link](https://sites.google.com/view/mcu-dev/home "MCU_DEV_5_25)
 
