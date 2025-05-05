@@ -19,5 +19,6 @@ ___
  * Software
    
  ---
-[current link](https://sites.google.com/view/mcu-dev/home "MCU_DEV_5_25)
+[current link](https://sites.google.com/view/mcu-dev/home "MCU_DEV_5_25")
+[Ref. Google web site](https://sites.google.com/view/mcu-dev/home)
 
