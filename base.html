@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Object and Editable DOM Text</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 40px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .section {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-top: 0;
+            color: #4a4a4a;
+        }
+        /* Style for the embedded object */
+        object {
+            width: 100%;
+            height: 200px;
+            border: 2px dashed #cccccc;
+            border-radius: 4px;
+        }
+        /* Style for the editable text area */
+        .editable-box {
+            width: 100%;
+            min-height: 150px;
+            padding: 15px;
+            border: 2px solid #0076ff;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: #fafafa;
+            font-size: 16px;
+            line-height: 1.5;
+            outline: none;
+        }
+        .editable-box:focus {
+            background-color: #ffffff;
+            box-shadow: 0 0 8px rgba(0, 118, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>HTML5 Embedded and Editable Text Example</h1>
+
+        <!-- Section 1: Embedded Text Object -->
+        <div class="section">
+            <h2>1. Embedded External Text</h2>
+            <!-- You can point the data attribute to any text file, document, or webpage -->
+            <object data="https://w3.org" type="text/plain">
+                <p>Your browser does not support embedded objects. <a href="https://w3.org">Click here to view the text directly.</a></p>
+            </object>
+        </div>
+
+        <!-- Section 2: Editable DOM Element -->
+        <div class="section">
+            <h2>2. Editable DOM Item</h2>
+            <!-- The contenteditable="true" attribute makes this native div behave like a text editor -->
+            <div class="editable-box" contenteditable="true">
+                Click inside this blue-bordered box to delete, change, or add your own text directly inside the web page.
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
